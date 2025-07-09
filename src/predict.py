@@ -1,6 +1,10 @@
 import joblib
 import numpy as np
 
+df = pd.read_csv('iris.data', header=None)
+df.columns = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'class']
+
+
 # Load model and label encoder
 model = joblib.load('knn_model.pkl')
 label_encoder = joblib.load('label_encoder.pkl')
