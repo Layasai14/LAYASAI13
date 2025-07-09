@@ -17,4 +17,4 @@ model.fit(X_train, y_train)
 
 # Save the trained model
 joblib.dump(model, "knn_model.pkl")
-print("✅ Model trained and saved.")
+print(" Model trained and saved.")
