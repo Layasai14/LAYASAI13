@@ -5,7 +5,7 @@ from sklearn.preprocessing import LabelEncoder
 import joblib
 
 # Load dataset
-df = pd.read_csv('iris.data', header=None)
+df = pd.read_csv('iris.data.csv', header=None)
 df.columns = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'class']
 
 # Encode target labels
