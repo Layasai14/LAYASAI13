@@ -29,3 +29,9 @@ jobs:
 
     - name: Predict flower type
       run: python predict.py
+    - name: Install dependencies
+      run: |
+         pip install --upgrade pip
+         pip install scikit-learn pandas joblib
+
+   
