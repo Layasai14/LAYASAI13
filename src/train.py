@@ -4,7 +4,7 @@ from sklearn.neighbors import KNeighborsClassifier
 import joblib
 
 # Load the Iris dataset
-df = pd.read_csv("iris.data")
+df = pd.read_csv("iris.csv")
 X = df.drop(columns="species")
 y = df["species"]
 
