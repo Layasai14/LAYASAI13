@@ -28,4 +28,4 @@ jobs:
       run: python main/src/train.py
 
     - name: Predict flower type
-      run: python predict.py
+      run: python main/src/predict.py
