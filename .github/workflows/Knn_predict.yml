@@ -1,6 +1,4 @@
 name: Iris KNN Prediction
-
-
 on:
   push:
     branches: [ main ]
