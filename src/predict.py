@@ -1,7 +1,7 @@
 import joblib
 import numpy as np
 
-df = pd.read_csv('iris.data', header=None)
+df = pd.read_csv('iris.data.csv', header=None)
 df.columns = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'class']
 
 
