@@ -25,7 +25,7 @@ jobs:
         pip install scikit-learn pandas joblib
 
     - name: Train model
-      run: python train.py
+      run: python main/src/train.py
 
     - name: Predict flower type
       run: python predict.py
